@@ -1,0 +1,32 @@
+.employee-row {
+    background-color: #f8f8f8;
+    transition: background-color 0.2s;
+    border: 1px solid #ddd;
+  }
+  
+  .employee-row:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .employee-row td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .employee-row td:first-child {
+    font-weight: bold;
+  }
+  
+  .employee-row button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .employee-row button:hover {
+    background-color: #2980b9;
+  }
+  

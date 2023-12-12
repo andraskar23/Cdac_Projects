@@ -1,0 +1,35 @@
+.imageContainer {
+  margin-top: -80px;
+  margin-left: 400px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.imageContainer img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.header-container {
+  
+  background-color: #800000;
+  color: white;
+  text-align: center;
+  
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  margin: 0;
+  font-size: 18px;
+}

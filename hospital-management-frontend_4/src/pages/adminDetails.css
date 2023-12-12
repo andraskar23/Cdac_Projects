@@ -1,0 +1,131 @@
+.flex-container {
+    width: 900px;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.flex-container>div {
+    width: auto;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 100px;
+    border-style: solid;
+    border-color: black;
+}
+
+span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #555;
+}
+
+.Span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #555;
+}
+
+#table {
+    border-style: solid;
+    border-color: black;
+    border-radius: "25px";
+}
+
+
+
+
+
+
+.employee-table {
+
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    width: 80%;
+    /* Adjust the width as needed */
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    height: 80vh;
+    /* Adjust the height as needed */
+}
+
+.table-heading {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    height: 40px;
+    border: 2px solid #ddd;
+}
+
+.table-heading {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+
+    border: 1px solid #ddd;
+    /* Match the table border */
+}
+
+.employee-row {
+    background-color: #f8f8f8;
+    transition: background-color 0.2s;
+    border: 1px solid #ddd;
+    /* Match the table border */
+}
+
+.employee-row:hover {
+    background-color: #e8e8e8;
+}
+
+.employee-row td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.employee-row td:first-child {
+    font-weight: bold;
+}
+
+.employee-row button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.employee-row button:hover {
+    background-color: #2980b9;
+}
+
+/* Add this custom styling for the navbar */
+.custom-navbar {
+    background-color: gray; /* Set your desired background color */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
+  /* Style the navbar toggle icon */
+  .navbar-toggle {
+    border: none;
+    background-color: transparent;
+    color: white; /* Set the color for the toggle icon */
+  }
+  

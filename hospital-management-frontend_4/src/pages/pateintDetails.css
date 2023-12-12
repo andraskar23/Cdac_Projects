@@ -1,0 +1,65 @@
+/* main cointainer */
+.mainContainer{
+    align-items: center;
+}
+.paymentStatusBadge{
+    border-style: solid;border-radius: 20px;width:100px;text-align: center;padding: 5px;
+}
+.paymentStatusBadge:hover{
+    border-style: solid;border-radius: 20px;width:100px;text-align: center;padding: 5px;background-color: yellow;;
+}
+/* to add side margins  */
+.patientTableContainer{
+    /* width: 800px;
+    margin-inline: 250px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: black; */
+    margin-top: 30px;
+  width: 80%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+/* to set display setting to mediine list */
+
+.patientPageMedicineList {
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+.medicineListRow{
+    border-color: black;
+}
+.patientPageMedicineList th {
+    background-color: #3498db;
+    color: white;
+  }
+.patientPageMedicineList th,
+.patientPageMedicineList td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+}
+.patientTableContainer th {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  .patientTableContainer td {
+    padding: 10px;
+    text-align: center;
+  }
+  .tooltip-inner {
+    background-color: #800000; /* Cherry Brown color */
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }

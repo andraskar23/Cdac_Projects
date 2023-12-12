@@ -1,0 +1,84 @@
+
+.patientDetailsAccountant{
+    width: 800px;
+}
+.patientDetailsAccountantTable{
+    /* background-color:azure; */
+    border-style: solid;
+    border-color: black;
+    margin-left: 50%;
+}
+.patient-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    height: 80vh;
+    /* Adjust the height as needed */
+}
+.table-heading {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    height: 40px;
+    border: 2px solid #ddd;
+}
+.patient-row {
+    background-color: #f8f8f8;
+    transition: background-color 0.2s;
+    border: 1px solid #ddd;
+  }
+  
+  .patient-row:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .patient-row td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .patient-row td:first-child {
+    font-weight: bold;
+  }
+  
+  .patient-row button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .patient-row button:hover {
+    background-color: #2980b9;
+  }
+  
+.table-heading {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+
+    border: 1px solid #ddd;
+    /* Match the table border */
+}
+.patient-table{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    width: 80%;
+    /* Adjust the width as needed */
+    border-collapse: collapse;
+}
+/* charges table patient details accountant */
+.chargesTable{
+    border-style: solid;
+    border-color: black;
+    margin-left: 50%;
+}
+tr,td,th{
+    border-style: solid;
+    border-color: black;
+}
